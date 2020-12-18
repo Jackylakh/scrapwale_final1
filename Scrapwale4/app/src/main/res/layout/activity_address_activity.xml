@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#6666"
+    tools:context=".address_activity">
+
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="@color/colorPrimary"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:theme="@style/ThemeOverlay.AppCompat.Dark"/>
+
+
+    <ImageView
+        android:id="@+id/imageView8"
+        android:layout_width="125dp"
+        android:layout_height="79dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="122dp"
+        android:layout_marginTop="76dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/location"
+        tools:layout_editor_absoluteY="93dp" />
+
+    <EditText
+        android:id="@+id/City"
+        android:layout_width="345dp"
+        android:layout_height="53dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="185dp"
+        android:layout_marginEnd="30dp"
+        android:ems="10"
+        android:hint="City*"
+        android:inputType="textPersonName"
+        android:textColor="@color/defaultTextColor"
+        android:textSize="22dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="270dp" />
+
+    <EditText
+        android:id="@+id/Area"
+        android:layout_width="345dp"
+        android:layout_height="53dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="247dp"
+        android:layout_marginEnd="30dp"
+        android:ems="10"
+        android:hint="Area Or Street*"
+        android:inputType="textPersonName"
+        android:textColor="@color/defaultTextColor"
+        android:textSize="22dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="270dp" />
+
+    <EditText
+        android:id="@+id/pincode"
+        android:layout_width="345dp"
+        android:layout_height="53dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="310dp"
+        android:layout_marginEnd="31dp"
+        android:ems="10"
+        android:hint="Pincode*"
+        android:inputType="number"
+        android:textColor="@color/defaultTextColor"
+
+        android:textSize="22dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="270dp" />
+
+    <EditText
+        android:id="@+id/landmark"
+        android:layout_width="345dp"
+        android:layout_height="53dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="370dp"
+        android:layout_marginEnd="31dp"
+        android:ems="10"
+        android:hint="Landmark(Optinal)"
+        android:inputType="textPersonName"
+        android:textColor="@color/defaultTextColor"
+        android:textSize="22dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="270dp" />
+
+    <EditText
+        android:id="@+id/state"
+        android:layout_width="345dp"
+        android:layout_height="53dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="430dp"
+        android:layout_marginEnd="31dp"
+        android:ems="10"
+        android:hint="State*"
+        android:inputType="textPersonName"
+        android:textColor="@color/defaultTextColor"
+        android:textSize="22dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="270dp" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="200dp"
+        android:layout_height="45sp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="500dp"
+        android:layout_marginEnd="95dp"
+        android:layout_marginBottom="66dp"
+        android:background="@color/colorPrimaryDark"
+        android:onClick="Successdone"
+        android:text="Submit"
+        android:textColor="@color/common_google_signin_btn_text_dark" />
+
+
+</RelativeLayout>

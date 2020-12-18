@@ -1,0 +1,69 @@
+{
+  "project_info": {
+    "project_number": "311874221255",
+    "firebase_url": "https://scrapwale-bec1c.firebaseio.com",
+    "project_id": "scrapwale-bec1c",
+    "storage_bucket": "scrapwale-bec1c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:311874221255:android:5d18085498f4ccfef0fae2",
+        "android_client_info": {
+          "package_name": "com.example.scrapwale"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "311874221255-7oie79mjjj3i4444csqgplehssdqv5gc.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAXe0L1sf3KS5ylTfGd_JH3LbKQOB-6sM4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "311874221255-7oie79mjjj3i4444csqgplehssdqv5gc.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:311874221255:android:748710ca0b3fcfd9f0fae2",
+        "android_client_info": {
+          "package_name": "com.titans.scrapwale"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "311874221255-7oie79mjjj3i4444csqgplehssdqv5gc.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAXe0L1sf3KS5ylTfGd_JH3LbKQOB-6sM4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "311874221255-7oie79mjjj3i4444csqgplehssdqv5gc.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
